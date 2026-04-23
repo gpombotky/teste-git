@@ -20,6 +20,9 @@ class cachorro {
   latir(){
     console.log("Au au AU au!!");
   }
+  dormir(tempo: number){
+    console.log(`dormindo... por {$tempo} segundos...`);
+  }
 }
 
 
