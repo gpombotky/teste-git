@@ -17,6 +17,9 @@ class cachorro {
   getNome(): string {
     return this.nome;
   }
+  latir(){
+    console.log("Au au AU au!!");
+  }
 }
 
 
